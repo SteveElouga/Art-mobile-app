@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">ART</string>
+    <string name="art_1_description" translatable="false">BUILDING STATES OF AMERICA</string>
+    <string name="autor_1" translatable="false">Elouga</string>
+    <string name="year_1" translatable="false">(2024)</string>
+    <string name="description_1" translatable="false">buildings</string>
+    <string name="art_2_description" translatable="false">ARC DE TRIOMPHE</string>
+    <string name="autor_2" translatable="false">Nyobe</string>
+    <string name="year_2" translatable="false">(2017)</string>
+    <string name="description_2" translatable="false">Arc de triomphe</string>
+    <string name="art_3_description" translatable="false">STATUE DE LA LIBERTE</string>
+    <string name="autor_3" translatable="false">Steve</string>
+    <string name="year_3" translatable="false">(2020)</string>
+    <string name="description_3" translatable="false">Statue de la liberte</string>
+    <string name="art_4_description" translatable="false">TOUR EIFFEL</string>
+    <string name="autor_4" translatable="false">Didier</string>
+    <string name="year_4" translatable="false">(2022)</string>
+    <string name="description_4" translatable="false">Tour Eiffel</string>
+    <string name="art_5_description" translatable="false">MURAILLE DE CHINE</string>
+    <string name="autor_5" translatable="false">ENSD</string>
+    <string name="year_5" translatable="false">(2021)</string>
+    <string name="description_5" translatable="false">Muraille de chine</string>
+
+</resources>
