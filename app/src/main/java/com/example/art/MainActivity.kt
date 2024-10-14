@@ -201,7 +201,6 @@ fun ArtTextAndImage(
             .padding(20.dp)
             .fillMaxSize()
             .statusBarsPadding()
-            .background(Color(0xFFF8F9FA))
             .verticalScroll(rememberScrollState())
             .safeDrawingPadding(),
     ) {
