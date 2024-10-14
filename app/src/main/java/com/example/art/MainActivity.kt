@@ -136,8 +136,8 @@ fun ArtPreview() {
             R.string.art_1_description,
             R.string.autor_1,
             R.string.year_1,
-            previous = { artNumber = 1 },
-            next = { artNumber = 2 }
+            { artNumber = 1 },
+            { artNumber++ }
         )
 
         2 -> ArtTextAndImage(
@@ -146,10 +146,8 @@ fun ArtPreview() {
             R.string.art_2_description,
             R.string.autor_2,
             R.string.year_2,
-            previous = {
-                artNumber = 2
-            },
-            next = { artNumber = 3 }
+            { if (artNumber != 1) artNumber-- },
+            { artNumber++ }
         )
 
         3 -> ArtTextAndImage(
@@ -158,10 +156,28 @@ fun ArtPreview() {
             R.string.art_3_description,
             R.string.autor_3,
             R.string.year_3,
-            previous = {
-                artNumber = 2
-            },
-            next = { artNumber = 1 }
+            { if (artNumber != 1) artNumber-- },
+            { artNumber++ }
+        )
+
+        4 -> ArtTextAndImage(
+            R.drawable.low_angle_photo_of_eiffel_tower,
+            R.string.description_4,
+            R.string.art_4_description,
+            R.string.autor_4,
+            R.string.year_4,
+            { if (artNumber != 1) artNumber-- },
+            { artNumber++ }
+        )
+
+        5 -> ArtTextAndImage(
+            R.drawable.great_wall_of_china,
+            R.string.description_5,
+            R.string.art_5_description,
+            R.string.autor_5,
+            R.string.year_5,
+            { if (artNumber != 1) artNumber-- },
+            { artNumber=1 }
         )
     }
 }
